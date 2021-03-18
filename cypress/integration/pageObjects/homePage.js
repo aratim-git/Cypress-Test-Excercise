@@ -6,7 +6,6 @@ export default {
 
 let homePageControls = {
     categoriesList : '#cat',
-    //samSungGalaxyProduct : 'a[text="Samsung galaxy s6"]',
     samsungGalaxyProduct : ':nth-child(1) > .card > .card-block > .card-title > .hrefch',
     nokiaLumia1520Product : ':nth-child(2) > .card > .card-block > .card-title > .hrefch',
     addToCartButton : '.col-sm-12 > .btn',
