@@ -16,11 +16,12 @@ let products = new Map();
 products.set("Samsung galaxy s6", homePageControls.samsungGalaxyProduct);
 products.set("Nokia lumia 1520", homePageControls.nokiaLumia1520Product);
 
-
+//Verify user is on Home Page
 function verifyUserNavigatedToHomePage(){
     cy.get(homePageControls.categoriesList).should('be.visible');
 }
 
+//Select product from the list
 function selectProduct(product){    
     for (let [key, value] of products) {
         if(key==product){
