@@ -10,6 +10,6 @@ To run tests locally you will need to have [node] and [cypress] both installed o
 - Run command npm install cypress --save-dev
 
 ## Test execution steps
--Run command npx cypress open
--Click on the test.js file
+- Run command npx cypress open
+- Click on the test.js file
 
