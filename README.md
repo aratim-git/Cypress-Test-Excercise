@@ -1,6 +1,5 @@
 # Cypress-Test-Exercise
 Welcome to Cypress Test Automation Project
-
 Please make a clone of this repository
 
 ## Description
